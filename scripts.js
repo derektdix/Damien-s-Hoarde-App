@@ -1,6 +1,6 @@
 const monsterSelectField = document.getElementById('monsterField')
 const addButton = document.getElementById('addButton')
-let url = `https://www.dnd5eapi.co/api/monsters/`
+let url = `https://www.dnd5eapi.co/monsters/`
 
 // API Fetch to get monster data
 const getMonsters = () => {
