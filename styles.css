@@ -15,3 +15,17 @@
     text-align: center;
     margin-top: 1rem;
 }
+
+#main #dataCardContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#main #dataCardContainer .monsterCard h3 {
+    margin: 0;
+}
+
+#main #dataCardContainer .monsterCard .monsterStats {
+    display: flex;
+    gap: .5rem;
+  }
